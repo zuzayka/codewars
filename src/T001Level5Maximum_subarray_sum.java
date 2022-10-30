@@ -4,6 +4,6 @@ public class T001Level5Maximum_subarray_sum {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        System.out.println("Hello worldd!");
     }
 }
