@@ -1,4 +1,5 @@
 public class T004_Level6_CamelCase_Method {
+    //change String to StringBuilder
     public static String camelCase(String str) {
         if (str.length() > 0) {
             String[] arr = str.split(" ");
