@@ -57,7 +57,7 @@ public class T001Level5Maximum_subarray_sum {
         }
         int sizeT = tempAL.size();
         if (sizeT == 1) {
-            if (tempAL.get(0) > 0){
+            if (tempAL.get(0) > 0) {
                 return tempAL.get(0);
             } else {
                 return 0;
