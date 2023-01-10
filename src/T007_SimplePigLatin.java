@@ -14,7 +14,6 @@ public class T007_SimplePigLatin {
             StringBuilder temp = new StringBuilder();
             if (!Character.isLetter(cArr[i])) {
                 temp.append(cArr[i]);
-                System.out.println(temp);
             } else {
                 while (Character.isLetter(cArr[i]) && (i < length - 1)) {
                     aLChars.add(cArr[i]);
@@ -28,7 +27,6 @@ public class T007_SimplePigLatin {
                     aLChars.add(cArr[i]);
                 }
                 char first = aLChars.get(0);
-                System.out.println(aLChars);
                 aLChars.remove(0);
                 for (Character c : aLChars) {
                     temp.append(c);
