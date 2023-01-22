@@ -1,4 +1,4 @@
-public class T007_Level6_WhoLikesIt {
+public class T008_Level6_WhoLikesIt {
     public static String whoLikesIt(String... names) {
         String temp;
         int length = names.length;
