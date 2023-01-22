@@ -11,7 +11,6 @@ public class T006_PaginationHelper<E> {
         this.eL = eL;
     }
 
-
     public ArrayList<ArrayList<E>> eLSort (List<E> eL, int item) {
         if ((eL == null) || (item <= 0)) {
             return null;
