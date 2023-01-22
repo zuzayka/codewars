@@ -1,5 +1,4 @@
 public class T008_Level6_WhoLikesIt {
-    // git repair
     public static String whoLikesIt(String... names) {
         String temp;
         int length = names.length;
