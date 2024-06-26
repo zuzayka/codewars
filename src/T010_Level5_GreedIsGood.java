@@ -1,12 +1,4 @@
 public class T010_Level5_GreedIsGood {
-//    enum BallSystem {
-//        ROLLED_ONE_THREE_TIMES,
-//        ROLLED_SIX_THREE_TIMES,
-//        ROLLED_FIVE_THREE_TIMES,
-//        ROLLED_FOUR_THREE_TIMES,
-//        ROLLED_THREE_THREE_TIMES,
-//
-//    }
     public static int result(int[] rollArray) {
         int[] countArray = new int[6];
         for (int i = 0; i < rollArray.length; i++) {
@@ -38,7 +30,4 @@ public class T010_Level5_GreedIsGood {
              ((countArray[4] % 3) * 50) + countArray[5] / 3 * 600;
     }
 
-    public static void main(String[] args) {
-        System.out.println(result(new int[]{2,4,4,5,4}));
-    }
 }
